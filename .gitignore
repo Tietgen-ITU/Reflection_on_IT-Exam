@@ -4,3 +4,4 @@ src/exam-paper.fdb_latexmk
 src/exam-paper.fls
 src/exam-paper.log
 src/exam-paper.synctex.gz
+src/exam-paper.toc

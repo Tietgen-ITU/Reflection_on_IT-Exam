@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.wordWrap": "on",
+		"ltex.language": "en-US"
+	}
 }
