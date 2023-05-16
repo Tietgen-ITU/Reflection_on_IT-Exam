@@ -3,6 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{xcolor}
 
+\newcommand{\temp}[1]{{\color{red}#1}}
+
 \title{Placing GPS trackers in cars to implement roadpricing taxes}
 
 \author{Andreas Nicolaj Tietgen (anti@itu.dk)}  
@@ -12,17 +14,19 @@
 
 \begin{document}
 \maketitle
-
+\newpage
+\input{sections/abstract.tex}
 \newpage
 \tableofcontents
 \newpage
 
-\input{sections/abstract.tex}
 \input{sections/intro.tex}
-\input{sections/literature-review.tex}
-\input{sections/methodology.tex}
+\input{sections/technology.tex}
+\input{sections/theory.tex}
 \input{sections/discussion.tex}
 \input{sections/conclusion.tex}
 
+\bibliographystyle{plain}
+\bibliography{refs/references.bib}
 
 \end{document}
