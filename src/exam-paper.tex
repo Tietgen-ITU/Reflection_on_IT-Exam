@@ -13,12 +13,16 @@
 
 
 \begin{document}
+\pagenumbering{gobble}
 \maketitle
 \newpage
 \input{sections/abstract.tex}
 \newpage
 \tableofcontents
+
 \newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \input{sections/intro.tex}
 \input{sections/technology.tex}
