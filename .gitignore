@@ -5,3 +5,6 @@ src/exam-paper.fls
 src/exam-paper.log
 src/exam-paper.synctex.gz
 src/exam-paper.toc
+.DS_Store
+.vscode/ltex.disabledRules.en-US.txt
+src/exam-paper.blg
